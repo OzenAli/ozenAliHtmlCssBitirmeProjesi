@@ -1,0 +1,59 @@
+body{
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: max-content;
+    gap: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: whitesmoke;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: bisque;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+main{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: burlywood;
+    margin-bottom: 5px;
+}
+
+.afis{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+    justify-content: center;
+}
+
+.hobbiton{
+    display: flex;
+    gap: 10px;
+}
+
+tr , td {
+    padding: 10px;
+    text-align: center;
+}
+
+.ikonist{
+    animation-name: ornek;
+    animation-duration: initial;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ornek{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
